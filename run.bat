@@ -1,1 +1,1 @@
-.\tools\qemu-system-x86_64 -drive file=test.img,format=raw
+qemu-system-x86_64 -drive file=disk.img,format=raw
