@@ -34,13 +34,13 @@ call print_string
 
 jmp $ ; Jump forever.
 
-include "print.asm"
-include "print_hex.asm"
-include "read_disk.asm"
-include "gdt.asm"
-include "switch_to_pm.asm"
-include "print_string_pm.asm"
-include "clear_screen.asm"
+include "./src/boot/print.asm"
+include "./src/boot/print_hex.asm"
+include "./src/pm/read_disk.asm"
+include "./src/pm/gdt.asm"
+include "./src/pm/switch_to_pm.asm"
+include "./src/pm/print_string_pm.asm"
+include "./src/pm/clear_screen.asm"
 
 use32
 

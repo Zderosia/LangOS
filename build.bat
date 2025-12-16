@@ -1,1 +1,1 @@
-.\tools\fasm .\src\test.ASM disk.img
+.\tools\fasm .\src\boot\boot.ASM disk.img
