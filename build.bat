@@ -1,0 +1,1 @@
+.\tools\fasm test.ASM disk.img
