@@ -1,1 +1,1 @@
-.\tools\fasm .\src\boot\boot.ASM disk.img
+nasm -f bin -o disk.img .\src\boot\boot.asm
