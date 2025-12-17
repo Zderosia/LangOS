@@ -1,1 +1,0 @@
-nasm -f bin -o disk.img .\src\boot\boot.asm

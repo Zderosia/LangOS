@@ -86,7 +86,7 @@ print_string_16:
     popa
     ret
 
-%include ".\src\boot\gdt.ASM"  ; Include GDT definitions
+%include "./src/boot/gdt.asm"  ; Include GDT definitions
 
 ; --- 32-bit Protected Mode Code ---
 [BITS 32]
